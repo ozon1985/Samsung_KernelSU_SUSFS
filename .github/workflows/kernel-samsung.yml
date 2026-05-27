@@ -117,6 +117,9 @@ jobs:
           - branch: "SM-S918B-Oneui8"
             android_version: "android13"
             kernel_version: "5.15"
+          - branch: "SM-S918B-Oneui8.5"
+            android_version: "android13"
+            kernel_version: "5.15"
           - branch: "SM-M146B-Oneui7-ADYJ2"
             android_version: "android13"
             kernel_version: "5.15"
@@ -163,4 +166,3 @@ jobs:
       droidspace: ${{ inputs.droidspace }}
       ntsync: ${{ inputs.ntsync }}
       bbr: ${{ inputs.bbr }}
-
